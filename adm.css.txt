@@ -1,0 +1,18 @@
+
+h2 {
+  color:khaki;
+  position: absolute;
+  left:170px; 
+  top:560px;  
+  text-decoration: none;
+}
+.img2{
+  position: relative; z-index: 10000;
+  border: 5px groove snow;
+  margin:500px ;
+  }
+
+.img3{ 
+  margin: 90px -384px;
+
+}
