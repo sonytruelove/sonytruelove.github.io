@@ -1,0 +1,58 @@
+<html>
+<head><title>Регистрация</title></head>
+<body onload="reg();">
+        <script>
+            funtion reg(){
+                window.onsubmit = hit;
+
+            }
+            function hit() {
+  alert("cammon");
+}
+                funtion valid (form) {
+                var fail=false;
+                var name=form.name.value;
+                if(name==""||name==" ")
+                fail="Вы не ввели свое имя";
+                if(fail){
+                alert=(fail)
+                return false;
+                } else {
+                    return true;
+                }
+                
+                
+                
+                }
+                
+                
+                
+                
+                
+                
+                </script>
+    
+<link rel="stylesheet" href="Торговая площадка.css">
+
+<div><img class=stand src="stand.png" width="1050" height="1050" alt="stand">
+
+<center><div style=position:relative><form action "" method="POST" name="name" onsubmit="valid()">
+    <label for="name">Введите ваше имя</label>
+<input type="text" name="name" placeholder="Акакий" id="name"></br /></br />
+<form action "" method="POST" name="password" onsubmit="valid()"><label for="password">Придумайте пароль</label>
+<input type="text" name="password" placeholder="123321" id="password"></br /></br />
+
+<form action "" method="POST" name="Rpassword" onsubmit="valid()"><label for="Rpassword">Повторите пароль</label>
+    <input type="text" name="Rpassword" placeholder="123321" id="Rpassword"></br /></br />
+    <button class="button" type="submit">Зарегистрироваться</button>
+
+
+
+
+</form></div>
+</div>
+</center>
+
+
+</body>
+</html>

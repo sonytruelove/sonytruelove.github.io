@@ -1,0 +1,45 @@
+<html>
+
+
+<body onload="reg();">
+<form>
+    <form action "" method="POST" name="name" ><input type="text" name="name" placeholder="Акакий" id="name228">Введите имя</form></br /></br />
+    <form action "" method="POST" name="password" ><input type="text" name="password" placeholder="123321" id="password228">Введите пароль</form></br /></br />
+      <form action "" method="POST" name="password" ><input type="text" name="password" placeholder="123321" id="REpassword228">Введите пароль повторно</br /></br />
+  </form>
+</form><button type="button" value="onclick" onclick="reg()" id="Зарегистрироваться"/>Зарегистрироваться</button>
+<script>
+    function reg() {
+      
+      Зарегистрироваться.onclick = hit;
+    }
+     
+    function hit() {
+     
+      if(name228.value=="") {
+     alert("Вы не ввели свое имя");
+
+     return false;
+    } else {
+      if(password228.value=="") {
+     alert("Вы не ввели свой пароль");
+     return false; }
+     else {
+      if(REpassword228.value!==password228.value) {
+     alert("Пароли не совпадают");
+     return false; 
+      }else{
+
+
+
+     return true;
+    window.location ="https/google.com";
+    }}
+     
+    
+    }
+    
+    }
+    </script>
+</body>
+</html>
